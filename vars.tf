@@ -36,6 +36,7 @@ variable "instances" {
       name = "rabbitmq"
       type = "t2.micro"
     }
+
     redis = {
       name = "redis"
       type = "t2.micro"

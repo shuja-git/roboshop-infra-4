@@ -20,6 +20,7 @@ resource "null_resource" "null" {
     ]
   }
 }
+
 resource "aws_security_group" "allow_tls" {
   name        = "${var.component}-${var.env}-sg"
   description = "Allow TLS inbound traffic and all outbound traffic"
