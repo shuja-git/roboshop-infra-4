@@ -1,6 +1,6 @@
 variable "component" {}
 variable "env" {
-  default = "env"
+  default = "dev"
 }
 variable "instance_type" {}
 variable "vpc_id" {
